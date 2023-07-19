@@ -57,18 +57,26 @@ nav a {
 }
 
 .gamer-icon {
-    ;
+
     width: 86.041px;
     height: 30px;
 }
 
 .btn-primary {
     width: 200px;
-    height: 45px;
+    height: 50px;
     align-items: center;
+    border: none;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding-bottom: 40px;
+    
+}
+.list-item-2{
+    color: #5f605e;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-bottom: 30px;
 }
 
 /* banner section  */
@@ -122,7 +130,7 @@ nav a {
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
-    gap: 10px;
+    margin-right: 20px;
     border-radius: 50px;
     color: #FFF;
     background-color: #9273e7;
@@ -131,6 +139,7 @@ nav a {
 .btn-2 {
     display: inline-flex;
     padding: 21px 40px;
+    margin-right: 20px;
     align-items: flex-start;
     border-radius: 48px;
     background: #4EC5F7;
@@ -139,6 +148,51 @@ nav a {
 .banner-heading-text {
     padding: 10px 300px 0px 0px;
 }
+
+.next-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 300px 20px 100px;
+}
+
+.documents-text {
+    text-align: center;
+}
+
+.heading-text-2 {
+    color: #F948B2;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.comment-text {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.comment-text-button {
+    margin-left: 300px;
+    height: 50px;
+    width: 120px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: #257191;
+    color: white;
+}
+
+.paragraph-text-3 {
+    width: 520px;
+    margin-left: 150px;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 
 /* section--2 */
 
@@ -197,6 +251,25 @@ nav a {
     margin-left: -120px;
 
 
+}
+
+.main-container-2 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 150px;
+    gap: 150px;
+}
+
+.girl-image-2 {
+    margin-left: 450px;
+    margin-top: -200px;
+
+}
+
+.heading-text-2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 /* apps-container */
@@ -369,4 +442,129 @@ nav a {
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
+}
+
+
+@media screen and (max-width: 576px) {
+    body{
+        margin: auto;
+    }
+    nav{
+    flex-direction: column;
+    padding: 0px;
+    margin-right: 500px;
+    align-items: normal;
+    
+}
+nav ul{
+    flex-direction: column;
+}
+.gamer-icon-head{
+    flex-direction: column;
+}
+.banner-container{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.cards-container{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.next-section{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.nav .gamer-icon-head,
+.menu-bar{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.main-container{
+    flex-direction: column;
+    
+}
+.main-container-2{
+    flex-direction: column;
+}
+.main-container-text{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.game-apps-container{
+    grid-template-columns: none;
+}
+.footer{
+    margin-left: 0px;
+}
+
+.game-apps-container {
+    grid-template-columns: repeat(1fr);
+}
+}
+
+@media screen and (min-width: 576px) and (max-width: 976px) {
+    body{
+        margin: auto;
+    }
+    nav{
+    flex-direction: column;
+    padding: 0px;
+    margin-right: 500px;
+    align-items: normal;
+    
+}
+nav ul{
+    flex-direction: column;
+}
+.gamer-icon-head{
+    flex-direction: column;
+}
+.banner-container{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.cards-container{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.next-section{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.nav .gamer-icon-head,
+.menu-bar{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.main-container{
+    flex-direction: column;
+    
+}
+.main-container-2{
+    flex-direction: column;
+}
+.main-container-text{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.game-apps-container{
+    grid-template-columns: none;
+}
+.footer{
+    margin-left: 0px;
+}
+
+.game-apps-container {
+    grid-template-columns: repeat(1fr);
+}
 }
