@@ -445,7 +445,7 @@ nav a {
     font-weight: 500;
 }
 
-
+/* 
 @media screen and (max-width: 576px) {
     body{
         margin: 0px;
@@ -571,4 +571,4 @@ nav ul{
 .game-apps-container {
     grid-template-columns: repeat(1fr);
 }
-}
+} */
