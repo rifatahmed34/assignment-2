@@ -153,10 +153,11 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 300px 20px 100px;
+   
 }
 
 .documents-text {
+  
     text-align: center;
 }
 
@@ -447,7 +448,8 @@ nav a {
 
 @media screen and (max-width: 576px) {
     body{
-        margin: auto;
+        margin: 0px;
+        padding: 0px;
     }
     nav{
     flex-direction: column;
@@ -487,8 +489,10 @@ nav ul{
     flex-direction: column;
     
 }
+}
 .main-container-2{
     flex-direction: column;
+    margin-left: -200px;
 }
 .main-container-text{
     flex-direction: column;
@@ -507,7 +511,7 @@ nav ul{
 }
 }
 
-@media screen and (min-width: 576px) and (max-width: 976px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
     body{
         margin: auto;
     }
