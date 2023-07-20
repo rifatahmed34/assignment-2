@@ -298,14 +298,14 @@ a{
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-image: url('/images/Rectangle\ 11.png');
+    background-image: url('../images/Rectangle\ 11.png');
 }
 
 .apps-2 {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-image: url('/images/Rectangle\ 12.png');
+    background-image: url('../images/Rectangle\ 12.png');
 }
 
 .apps-3 {
@@ -315,21 +315,21 @@ a{
     border-radius: 50px;
     background: #FFF;
     background-repeat: no-repeat;
-    background-image: url('/images/Rectangle\ 13.png');
+    background-image: url('../images/Rectangle\ 13.png');
 }
 
 .apps-4 {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-image: url('/images/Rectangle\ 14.png');
+    background-image: url('../images/Rectangle\ 14.png');
 }
 
 .apps-5 {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-image: url('/images/Rectangle\ 15.png');
+    background-image: url('../images/Rectangle\ 15.png');
 }
 
 .apps-6 {
@@ -338,7 +338,7 @@ a{
     margin-top: 50px;
     margin-left: 150px;
     border-radius: 50px;
-    background-image: url('/images/Rectangle\ 16.png');
+    background-image: url('../images/Rectangle\ 16.png');
 }
 
 .apps-7 {
@@ -347,7 +347,7 @@ a{
     margin-top: 50px;
     margin-left: 150px;
     border-radius: 50px;
-    background-image: url('/images/Rectangle\ 17.png');
+    background-image: url('../images/Rectangle\ 17.png');
 }
 
 .apps-8 {
@@ -356,7 +356,7 @@ a{
     margin-top: 50px;
     margin-left: 150px;
     border-radius: 50px;
-    background-image: url('/images/Rectangle\ 18.png');
+    background-image: url('../images/Rectangle\ 18.png');
 }
 
 .apps-9 {
@@ -366,7 +366,7 @@ a{
     margin-left: 150px;
 
     border-radius: 50px;
-    background-image: url('/images/Rectangle\ 19.png');
+    background-image: url('../images/Rectangle\ 19.png');
 }
 
 /* footer section  */
