@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    width: 1200px;
+    width: 1375px;
     height: 130px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -293,14 +293,14 @@ nav a {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-image: url(./images/Rectangle\ 11.png);
+    background-image: url('/images/Rectangle\ 11.png');
 }
 
 .apps-2 {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-image: url(./images/Rectangle\ 12.png);
+    background-image: url('/images/Rectangle\ 12.png');
 }
 
 .apps-3 {
@@ -310,21 +310,21 @@ nav a {
     border-radius: 50px;
     background: #FFF;
     background-repeat: no-repeat;
-    background-image: url(./images/Rectangle\ 13.png);
+    background-image: url('/images/Rectangle\ 13.png');
 }
 
 .apps-4 {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-image: url(./images/Rectangle\ 14.png);
+    background-image: url('/images/Rectangle\ 14.png');
 }
 
 .apps-5 {
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    background-image: url(./images/Rectangle\ 15.png);
+    background-image: url('/images/Rectangle\ 15.png');
 }
 
 .apps-6 {
@@ -333,7 +333,7 @@ nav a {
     margin-top: 50px;
     margin-left: 150px;
     border-radius: 50px;
-    background-image: url(./images/Rectangle\ 16.png);
+    background-image: url('/images/Rectangle\ 16.png');
 }
 
 .apps-7 {
@@ -342,7 +342,7 @@ nav a {
     margin-top: 50px;
     margin-left: 150px;
     border-radius: 50px;
-    background-image: url(./images/Rectangle\ 17.png);
+    background-image: url('/images/Rectangle\ 17.png');
 }
 
 .apps-8 {
@@ -351,7 +351,7 @@ nav a {
     margin-top: 50px;
     margin-left: 150px;
     border-radius: 50px;
-    background-image: url(./images/Rectangle\ 18.png);
+    background-image: url('/images/Rectangle\ 18.png');
 }
 
 .apps-9 {
@@ -361,12 +361,12 @@ nav a {
     margin-left: 150px;
 
     border-radius: 50px;
-    background-image: url(./images/Rectangle\ 19.png);
+    background-image: url('/images/Rectangle\ 19.png');
 }
 
 /* footer section  */
 .footer {
-    width: 1675px;
+    width: 100%;
     height: 636px;
     border: 2px solid blue;
     background-color: #0B0223;
